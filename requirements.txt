@@ -1,6 +1,6 @@
 streamlit
 pandas
-requestss
+request
 scikit-learn
 numpy
 matplotlib
