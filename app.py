@@ -6,7 +6,7 @@ import requests
 # Function to fetch movie poster
 def fetch_poster(movie_id):
     # Replace 'YOUR_API_KEY' with your actual TMDb API key
-    api_key = "a4a32f16b2531f2405ca69a96685dbad"
+    api_key = ""
     url = f"https://api.themoviedb.org/3/movie/{movie_id}?api_key={api_key}&language=en-US"
     try:
         response = requests.get(url)
